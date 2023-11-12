@@ -1,0 +1,11 @@
+[package]
+name = "gps-tui"
+version = "0.1.0"
+authors = ["balintb <balintb@users.noreply.github.com>"]
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.26.1"
+tui = { package = "ratatui", version = "0.21.0" }
+unbounded-gpsd = "0.5.1"
