@@ -18,6 +18,6 @@ cargo build
 
 ## Why?
 
-The ADS-B receiver powering [hotelalpha.hu](https://balint.link/hotelalpha) is running on a Raspberry Pi 3B+ with a USB GPS module attached. I wanted to see if I could get a simple world map to display on the Pi's screen. With the ultimate goal of feeding the site from multiple receivers and with multiple datasources, I wanted to ensure a receiver is location-aware, hence the GPS module. With multiple datasources I'll be able to measure effectiveness of different antennas and receiver locations, without having to hardcode location coordinates.
+The ADS-B receiver powering [hotelalpha.hu](https://balint.click/hotelalpha) is running on a Raspberry Pi 3B+ with a USB GPS module attached. I wanted to see if I could get a simple world map to display on the Pi's screen. With the ultimate goal of feeding the site from multiple receivers and with multiple datasources, I wanted to ensure a receiver is location-aware, hence the GPS module. With multiple datasources I'll be able to measure effectiveness of different antennas and receiver locations, without having to hardcode location coordinates.
 
 Rust rocks. My rust sucks. I'm learning. Pull requests welcome to make this better.
